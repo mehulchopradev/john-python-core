@@ -1,0 +1,10 @@
+- Object oriented programming
+  - As much as try mapping Real world -> Software world
+  
+  1. Real world actors -> memory locations in the RAM (objects)
+    Every object -> Data type (class). Objects are created (instantiated) from a class. Blueprint for an object
+  
+  2. Real world actor characteristics / attributes -> attributes of the object. 1 object can have 1 to n attributes.
+    Attributes live with the object
+  
+  3. Real world actor actions -> methods (functions) on an object
