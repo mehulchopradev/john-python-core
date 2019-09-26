@@ -15,6 +15,8 @@ s1 = Student('mehul', 'm', 10, 90.45)
 # 1. Reserves area in memory for this Student object - 2006
 # 2. Student.__init__(2006, 'mehul', 'm', 10, 90.45)
 
+s1.name = 'Mehul' # mutable object
+
 # created attributes in an object
 '''s1.name = 'mehul'
 s1.gender = 'm'
