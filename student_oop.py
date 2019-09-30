@@ -10,7 +10,19 @@ print(Student.get_count())
 # 1. Reserves area in memory for this Student object - 2001
 # 2. Student.__init__(2001)
 
-s1 = Student('mehul', 'm', 10, 90.45)
+s1 = Student('mehul', 'm', 10, 90.45, ['986868989', '345465436'])
+t = s1.get_name_roll()
+
+'''name = t[0]
+roll = t[1]'''
+
+name, roll = t # tuple unpacking
+
+print(name)
+print(roll)
+
+# Student.get_name_roll(s1)
+
 # Internally
 # 1. Reserves area in memory for this Student object - 2006
 # 2. Student.__init__(2006, 'mehul', 'm', 10, 90.45)
