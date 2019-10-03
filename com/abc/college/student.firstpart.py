@@ -17,9 +17,9 @@ class Student: # user defined classes must start with capital letter
         # tests whether the object that the variable stores, is of a particular class type or no
         self.contact_nos = contact_nos
       else:
-        # TODO: This will change
-        print('Contact nos must be a list')
-        self.contact_nos = None
+        ''' print('Contact nos must be a list')
+        self.contact_nos = None '''
+        raise ValueError('Contact nos must be a list')
     else:
       self.contact_nos = contact_nos
 
