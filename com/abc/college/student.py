@@ -22,3 +22,17 @@ class Student(CollegeUser):
     return '{0}Roll: {1}\n'.format(part1, self.roll)
 
   # can have its own set of functions
+
+  # overloaded the + operator
+  def __add__(self, other):
+    return self.marks + other.marks
+
+  def __gt__(self, other):
+    return self.marks > other.marks
+
+  def __eq__(self, other):
+    return self.roll == other.roll
+
+  def __lshift__(self, contact_no):
+    self.contact_nos.append(contact_no)
+    return self
