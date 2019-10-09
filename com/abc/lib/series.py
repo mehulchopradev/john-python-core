@@ -18,3 +18,12 @@ def get_even_series(n):
   for v in range(0, n+1, 2):
     result += str(v) + '\t'
   return result
+
+# print(__name__) #implicit variable every module gets
+# when directly running this module - __main__
+# when imported in an external module and external module runs - package name.module name
+
+if __name__ == '__main__':
+  n = int(input('Enter n : '))
+  print(get_fibo_series(n))
+  print(get_even_series(n))
